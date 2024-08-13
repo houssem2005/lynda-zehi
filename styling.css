@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+body{
+    background: black;
+}
+.container{
+    text-align: center;
+    margin-top: 10px;
+}
+img{
+    width: 25vh;
+    height: 25vh;
+    border-radius: 20%;
+    box-shadow: 5px 5px 0.5 black;
+    margin: 5px;
+}
+img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+img:not(:hover){
+    transform: scale(1);
+    transition: 1s ease;
+}
+.photo1{
+    margin-left: 30px;
+}
+.container img{
+    margin-top: 50px;
+}
+button{
+    background: none;
+    border: none;
+}
+.container2{
+    margin-top: 200px;
+    width: 70%;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    display: none;
+}
+.container2 img{
+    height: 50vh;
+    width: 50vh;
+}
+.container2 p:hover{
+    color: rgb(169, 150, 190);   
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.container3{
+    text-align: center;
+    display: none;
+}
+.container4{
+    position: relative;
+    height: 2000px;
+    display: none;
+}
+.milk{
+    display: flex;
+    align-items: center;
+}
+.omellete{
+    display: flex;
+    align-items: center;
+}
+.Apple{
+    display: flex;
+    align-items: center;
+}
+.yogurt{
+    display: flex;
+    align-items: center;
+}
+.salade{
+    display: flex;
+    align-items: center;
+}
+.grilled{
+
+    position: relative;
+    height: 200px;
+}
+
+.container5{
+    text-align: center;
+    display: none;
+}
+.container5 .cinema, .pedalo, .shoping, .library, .car-date{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+.container6{
+    text-align: center;
+    align-items: center;
+    display: none;
+}
+.container7{
+    text-align: center;
+    display: none;
+}
+.container8{
+    display: none;
+    text-align: center;
+    align-items: center;
+}
